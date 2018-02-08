@@ -32,3 +32,14 @@
     sets the width of implicitly added columns 
 - grid-auto-flow:
     determines whether your implicit items are added as a row or column
+- auto-fit:
+    Makes enough columns to fit the items on the page
+    will not create additional implicit tracks if there's free space left
+- auto-fill:
+    Makes enough columns to fit the items on the page and if theres any left over space it will create an additional number of implicit tracks to fill the rest
+- minmax():
+    this is used to wrap items. it takes two arguments the minimum an item's width or hight can me and the max. This will allow grid to determine at what point it should stack the items onto extra rows. USUALLY USED IN CONJUNCTION WITH auto-fit in order to make everything look neat.
+- fit-content:
+    this accepts a unit(px, em whatever) and constrains the item and the content of that item to that width or height depending if you're using it with grid-template-column/row
+- areas:
+    They're great!!!

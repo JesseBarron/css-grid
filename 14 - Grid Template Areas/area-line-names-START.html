@@ -46,6 +46,16 @@
     .container {
       display: grid;
       grid-gap: 20px;
+      grid-template-areas: 
+        "po po po po ha ha ha ha"
+        "po po po po ha ha ha ha"
+        "po po po po ha ha ha ha"
+        "po po po po ha ha ha ha"
+    }
+    .item1 { 
+      /* grid-area: po; */
+      grid-column: po-start / ha-end;
+      grid-row-end: po-end; 
     }
   </style>
 </body>
